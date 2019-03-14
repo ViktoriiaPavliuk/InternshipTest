@@ -9,3 +9,14 @@ C:\Users\Vitaliy_Datsyshyn\source\repos\InternshipVika\InternshipTest Csharp\obj
 C:\Users\Vitaliy_Datsyshyn\source\repos\InternshipVika\InternshipTest Csharp\obj\Debug\netcoreapp2.1\internshiptest.AssemblyInfo.cs
 C:\Users\Vitaliy_Datsyshyn\source\repos\InternshipVika\InternshipTest Csharp\obj\Debug\netcoreapp2.1\internshiptest.dll
 C:\Users\Vitaliy_Datsyshyn\source\repos\InternshipVika\InternshipTest Csharp\obj\Debug\netcoreapp2.1\internshiptest.pdb
+C:\Users\Viktoriia\Desktop\InternshipTest\obj\Debug\netcoreapp2.1\internshiptest.csproj.CoreCompileInputs.cache
+C:\Users\Viktoriia\Desktop\InternshipTest\obj\Debug\netcoreapp2.1\internshiptest.AssemblyInfoInputs.cache
+C:\Users\Viktoriia\Desktop\InternshipTest\obj\Debug\netcoreapp2.1\internshiptest.AssemblyInfo.cs
+C:\Users\Viktoriia\Desktop\InternshipTest\obj\Debug\netcoreapp2.1\internshiptest.dll
+C:\Users\Viktoriia\Desktop\InternshipTest\obj\Debug\netcoreapp2.1\internshiptest.pdb
+C:\Users\Viktoriia\Desktop\InternshipTest\bin\Debug\netcoreapp2.1\internshiptest.deps.json
+C:\Users\Viktoriia\Desktop\InternshipTest\bin\Debug\netcoreapp2.1\internshiptest.runtimeconfig.json
+C:\Users\Viktoriia\Desktop\InternshipTest\bin\Debug\netcoreapp2.1\internshiptest.runtimeconfig.dev.json
+C:\Users\Viktoriia\Desktop\InternshipTest\bin\Debug\netcoreapp2.1\internshiptest.dll
+C:\Users\Viktoriia\Desktop\InternshipTest\bin\Debug\netcoreapp2.1\internshiptest.pdb
+C:\Users\Viktoriia\Desktop\InternshipTest\obj\Debug\netcoreapp2.1\internshiptest.csprojAssemblyReference.cache

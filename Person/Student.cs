@@ -2,14 +2,23 @@ namespace InternshipTest.Person
 {
     public class Student
     {
+        public string StudentName { get; set; }
+
+        private Knowledge _knowledge = new Knowledge(0);
+
         public Student(string name)
         {
-            //TODO: Implementation is needed
+            StudentName = name;
         }
 
         public void SetKnowledge(Knowledge knowledge)
         {
-            //TODO: Implementation is needed
+            _knowledge = knowledge;
+        }
+
+        public int GetKnowledgeLevel()
+        {
+            return _knowledge.GetKnowledgeLevel();
         }
     }
 }

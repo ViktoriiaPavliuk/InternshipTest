@@ -9,15 +9,34 @@ namespace InternshipTest
     {
         static void Main(string[] args)
         {
-            var s = new Student("Alex");
-            University university = new University("CH.U.I.");
-            university.AddStudent(new Student("Andrew Kostenko"));
-            university.AddStudent(new Student("Julia Veselkina"));
-            university.AddStudent(new Student("Maria Perechrest"));
+            Student student1 = new Student("Viktoriia Pavliuk");
+            student1.SetKnowledge(new Knowledge(88));
 
-            Internship internship = new Internship("Interlink");
-            Console.WriteLine("List of internship's students:");
-            Console.WriteLine(internship.GetStudents());
+            Student student2 = new Student("Vitaliy Datsyshyn");
+            student2.SetKnowledge(new Knowledge(89));
+
+            Student student3 = new Student("Petro Beckham");
+            student3.SetKnowledge(new Knowledge(47));
+
+            Student student4 = new Student("Natalie Dormer");
+            student4.SetKnowledge(new Knowledge(70));
+
+
+            University LPNU = new University("LP NU");
+            LPNU.AddStudent(student1);
+            LPNU.AddStudent(student2);
+            LPNU.AddStudent(student3);
+            LPNU.AddStudent(student4);
+
+            Internship internship = new Internship("InterLink");
+            internship.AddStudentsFromUniversity(LPNU);
+
+            foreach (Student student in internship.GetStudents())
+            {
+                Console.WriteLine(student.StudentName);
+            }
+
+            Console.ReadKey();
         }
     }
 }
