@@ -1,4 +1,4 @@
-namespace InternshipTest
+namespace InternshipTest.Person
 {
     public class Knowledge
     {
