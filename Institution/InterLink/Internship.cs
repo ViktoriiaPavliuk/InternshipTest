@@ -16,21 +16,7 @@ namespace InternshipTest.Institution.InterLink
 
         public void AddStudentsFromUniversity(University university)
         {
-            int studentsKnowledgeAmount = 0;
-            List<Student> studentsFromUniversity = university.GetStudents();
-
-            foreach (Student student in studentsFromUniversity)
-            {
-                studentsKnowledgeAmount += student.GetKnowledgeLevel();
-            }
-
-            int avaregeStudentKnowledge = studentsKnowledgeAmount / studentsFromUniversity.Count;
-
-            foreach (Student student in studentsFromUniversity)
-            {
-                if (student.GetKnowledgeLevel() > avaregeStudentKnowledge)
-                    _students.Add(student);
-            }
+            _students.AddRange(university.GetBestStudents());
         }
 
         public List<Student> GetStudents()

@@ -28,5 +28,27 @@ namespace InternshipTest.Institution
         {
             return _students;
         }
+
+        public List<Student> GetBestStudents()
+        {
+            var bestStudents = new List<Student>();
+            if (_students.Count > 0)
+            {
+                int studentsKnowledgeAmount = 0;
+                foreach (var student in _students)
+                {
+                    studentsKnowledgeAmount += student.GetKnowledgeLevel();
+                }
+
+                int avaregeStudentKnowledge = studentsKnowledgeAmount / _students.Count;
+                foreach (var student in _students)
+                {
+                    if (student.GetKnowledgeLevel() > avaregeStudentKnowledge)
+                        bestStudents.Add(student);
+                }
+            }
+
+            return bestStudents;
+        }
     }
 }
